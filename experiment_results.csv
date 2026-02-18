@@ -1,0 +1,3 @@
+Experiment,Learning_Rate,Batch_Size,Epochs,LoRA_Rank,BLEU,ROUGE-L,Training_Time_min,GPU_Memory_GB
+Baseline (No Fine-tuning),-,-,-,-,0.0234,0.1245,-,-
+Current Run,0.0002,4,2,16,0.006927407747861357,0.09072259782659134,35.28,7.83
