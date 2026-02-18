@@ -1,7 +1,4 @@
-
 torch
 transformers
 peft
 accelerate
-gradio
-gunicorn
