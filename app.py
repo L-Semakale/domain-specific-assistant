@@ -18,15 +18,16 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # Load base model
 base_model = AutoModelForCausalLM.from_pretrained(
     BASE_MODEL,
-    torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+    dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
     device_map="auto" if torch.cuda.is_available() else None
 )
 
-# Load tokenizer from fine-tuned directory
-tokenizer = AutoTokenizer.from_pretrained(ADAPTER_PATH)
+# Load tokenizer from BASE model (important)
+tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
 
-# Attach LoRA adapter
+# Attach LoRA adapter from LOCAL folder
 model = PeftModel.from_pretrained(base_model, ADAPTER_PATH)
+
 model.eval()
 
 print("Model loaded successfully!")
