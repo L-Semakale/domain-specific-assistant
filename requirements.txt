@@ -1,6 +1,7 @@
+
 torch
 transformers
 peft
-gradio
 accelerate
-bitsandbytes
+gradio
+gunicorn
