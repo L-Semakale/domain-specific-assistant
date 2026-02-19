@@ -99,7 +99,7 @@ Features include:
 * Out-of-domain query filtering
 
  **Live Demo:**
-[Insert Hugging Face Space Link]
+https://huggingface.co/spaces/Limpho/healthcare-assistant
 
 ---
 
@@ -108,7 +108,7 @@ Features include:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/domain-specific-assistant.git
+git clone https://github.com/L-Semakale/domain-specific-assistant.git
 cd domain-specific-assistant
 ```
 
