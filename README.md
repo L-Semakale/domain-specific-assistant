@@ -145,24 +145,6 @@ domain-specific-assistant/
 └── README.md
 ```
 
----
-
-##  Demo Video
-
-A 5–10 minute demo video explaining:
-
-* Dataset preprocessing
-* Fine-tuning workflow
-* Hyperparameter experiments
-* Evaluation metrics
-* Model comparison
-* Deployment
-
- **Demo Video Link:**
-[Insert link]
-
----
-
 ##  Disclaimer
 
 This chatbot is intended for educational and informational purposes only.
